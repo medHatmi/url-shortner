@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const ShortUrl = require('./models/shortUrl')
 const app = express()
 
-mongoose.connect('mongodb+srv://admin:admin@cluster0.obuph.mongodb.net/SocialAppDB?retryWrites=true&w=majority', {
+mongoose.connect('your mongodb url', {
   useNewUrlParser: true, useUnifiedTopology: true
 }).then(console.log('connected'))
 
